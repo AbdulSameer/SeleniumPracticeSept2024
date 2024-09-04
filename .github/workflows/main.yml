@@ -1,8 +1,16 @@
 name: SeleniumPracticeSept2024
-on: push
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 jobs:
   my-job:
     runs-on: windows-latest
     steps:
       - name: my-step
         run: echo "Hello World!"
+
+
