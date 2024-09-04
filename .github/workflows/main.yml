@@ -2,7 +2,7 @@ name: SeleniumPracticeSept2024
 on: push
 jobs:
   my-job:
-    runs-on: windows
+    runs-on: windows-latest
     steps:
       - name: my-step
         run: echo "Hello World!"
