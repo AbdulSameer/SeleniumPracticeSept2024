@@ -1,0 +1,16 @@
+name: opening a browser
+
+on: 
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      - name: demo workflow
+        run: echo opening a browser
