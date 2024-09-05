@@ -1,0 +1,28 @@
+name: Dummy Browser
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+ run-java:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+
+      - name: Compile Java file
+        run: javac src/Dummy.java
+
+      - name: Run Java file
+        run: java -cp src Main
+
+
