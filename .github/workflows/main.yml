@@ -7,10 +7,22 @@ on:
     branches:
       - main
 jobs:
-  my-job:
+ run-java:
     runs-on: windows-latest
+
     steps:
-      - name: my-step
-        run: echo "Hello World!"
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+
+      - name: Compile Java file
+        run: javac src/Dummy.java
+
+      - name: Run Java file
+        run: java -cp src Main
 
 
