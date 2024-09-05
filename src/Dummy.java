@@ -8,6 +8,6 @@ public class Dummy {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.get("https://google.com");
+        driver.get("https://facebook.com");
     }
 }
