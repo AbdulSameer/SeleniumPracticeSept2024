@@ -1,0 +1,493 @@
+coforge interview question and answers
+--------------------------------------
+1. Explain api framework
+2. parse a json , find menu items
+3. write xpath for makemytrip holiday package page
+4. how you execute your automation cases
+5. Have you integrated your project to a pipeline?
+6. Explain all git commands for pushing your changes
+7. what all tags are present in cucumber runner file
+8. what are hooks in cucumber
+9. API status codes :400,401,500,502,404,200,201
+10. put vs post
+11. why we use patch
+12. where have you used polymorphism in your selenium framework
+13. How you handle negative scenarios in framework
+14. How you will create dynamic test data in automation framework
+15. How do you connect to db in java
+16. what main features of java are you using apart from basic stuff. Have you used streams, lambda etc
+17. what are generics
+18. How to iterate hashmaps
+19. what challenges you faced in automation and how did you overcome those
+20. How will you debug your code
+21. what is step into and step over in debugging
+22. write sql query to find 3rd max salary
+23. What is RTM
+24. what is structure of testng.xml
+25. how to execute your cases if you have multiple environments
+==============================================================================================
+JPMC Automation Testing Interview Questions
+-------------------------------------------
+1. Write xpath for google- I am feeling lucky button
+2. Write java program for string reverse.
+3. Can we overload a constructor?
+4. can we inherit a constructor?
+5. Does constructors have return types?
+6. What is static block?
+7. What if we remove static from main method?
+8. Will finally block be executed if we do system.exit(0)?
+9. Which OOPS concept have you used in framework?
+10. How to find broken links using selenium?
+11. How to skip a test case in testng?
+12. How to do type operation without sendKeys()?
+====================================================================================================
+Cigniti SDET Interview Experience
+---------------------------------
+1. Write a java program to find the second largest number in an array.
+2. pseudo code for dynamic xpath
+3. How to rerun a test case using testng
+4. If there are cucumber hooks and testng annotations in a script, which will be executed first?
+5. What is the return type of getWindowHandles()?
+6. What is difference between findElement and findElements
+7. How to locate an element using color attribute
+8. How to handle frames
+9. file upload using selenium
+10. different types of exceptions in selenium
+11. How to handle staleElementReference exception
+12. Find second largest salary using sql
+13. Difference between POST and PUT methods
+14. Which HTTP method will be invoke duing login call
+15. Difference between abstract methods and interface methods
+16. Can we declare static variable inside non static methods?
+17. Can a class be declare static?
+======================================================================================================
+Infosys API Automation Interview Experience
+---------------------------------------------
+Write a java program to read data from excel file and pass it in a API call.
+How to fetch and validate headers?
+What is RestAssured, is it an interface or class?
+How to initialize page factory class?
+what is constructor chaining?
+Explain serialization and deserialization using examples.
+Explain run time polymorphism using an example
+How to iterate a hashmap
+Explain your API framework
+How to exclude group in testng?
+What is collection runner in POSTMAN
+=======================================================================================================
+Synechron SDET Interview Questions
+------------------------------------
+Write code snippets for compile time and run time polymorphism
+Write java program to find second largest element in an array.
+Difference between hashset and hashmap
+Difference between driver.close() and driver.quit()
+Difference between REST and API
+What is implicit wait and explicit wait.
+Difference between xpath and css selector
+Explain all types of Sql joins with examples
+Difference between ArrayList & LinkedList.
+=======================================================================================================
+HCL API Automation Testing Interview Experience
+------------------------------------------------
+Explain your API framework
+What is the need of property file in API framework
+What is status code 415
+Write a POST request snippet using POJO
+How will you validate a transaction id in a response body.
+Write a java program to find occurence of character without using any loop.
+Write a sql query to find 2nd highest marks.
+========================================================================================================
+Espire Infolabs Automation Tester Interview Questions
+------------------------------------------------------
+What is Dry run, monochrome?
+What is a WebDriver?
+What is difference between driver.get() and driver.navigate()?
+What is Throw and Throws?
+What are selenium 4 features
+Explain changes w.r.t to enhanced grid in selenium 4?
+Why testing is called context dependent?
+Difference between enum and constants
+========================================================================================================
+Persistent SDET Interview Questions
+------------------------------------
+Write a java program to find occurence of characters in a string and then print unique characters
+Explain your UI framework and where have you used OOPs concepts in that.
+Explain difference between encapsulation and abstraction
+What are headers in API?
+Write snippet for a sample POST call.
+Different authorization techniques.
+What error will you get if headers are not added.
+What are different protocols supported by REST.
+=========================================================================================================
+ICE Mortgages Automation Tester Interview Experience
+----------------------------------------------------
+What are your roles and responsibilties in your project.
+How to retrieve headers from a response.
+Write code for a post request
+Write git setup commands
+How to remove duplicates from a list.
+There are 4 tabs opened, write program to get titles of all opened tabs.
+Write xpath for ‘book appointment’ button in Practo website.
+Write sample code for data provider and how to pass data using that.
+How to fetch properties using property file
+Explain internal working of an arraylist.
+Explain concept of WebDriverManager.
+=========================================================================================================
+Mphasis SDET Interview Experience
+---------------------------------
+Write a program to remove duplicates from {1,1,2,2,3,3,4,4,4,4} and print occurence of all integers.
+Write a recursice java program to print 1 to 10 numbers.
+Write a program to find missing number from {1,2,4,5,6}.
+Write a xpath for price slider in flipkart.
+Write a xpath for 4 star rating in flipkart.
+Write selenium pseudo code for finding duplicates from a country list dropdown and make sure user can select 2 countries.
+What is page factory?
+What are different types of selenium exceptions?
+=========================================================================================================
+Medline Automation Testing Interview Questions
+----------------------------------------------
+What framework are you using.
+How are you defining page classes. Where are you writing your web elements.
+How are you using page objects.
+Difference between findElement and findElements.
+Is there any exception named ElementNotFound?
+Write a java program to print the output a3b2acdc2 from input string aaabbacdcc.
+Write xpath for ‘train schedule’ on irctc website.
+What is git fetch
+How to find all links in a webpage
+Why getWindowHandles() return set.
+Where have you used method overloading and method overriding in your project.
+=========================================================================================================
+TSYS( Global Payments) Automation Testing Interview Experience
+--------------------------------------------------------------
+Write program to find occurence of word in a sentence.
+Xpath for ‘Payment’ in global payments page.
+What types of testing you do?
+What is severity and priority. Explain with examples.
+Write code for reading data from file.
+How to perform double click in selenium
+Given a sample json, how to find a perticular node from it.
+Write sample code to select a country from country list.
+Write a sql query to create a table which has a primary key which keeps on incrementing automatically.
+Write a sql query for group by scenario.
+How to rerun failed test cases in cucumber.
+What is difference between HTTP client and RESTAssured
+=========================================================================================================
+Innominds Automation Tester Interiew Questions
+----------------------------------------------
+Write a java program where input string is “disabled and enable” and output should be “delbasid dna elbane”.
+Write a java program to find occurence of character in a string.
+Write a java program to find occurences of sum of 6 from integer array {6,0,2,4,5,7,1,03,8}.
+Different API status codes
+What validations will you do in rest API
+How will you perform file upload in selenium.
+How to handle multiple tabs in selenium.
+Different exceptions handled in selenium.
+Can we override static methods.
+OOPs concepts used in framework.
+Challenges faced in manual testing
+What is test plan and test strategy.
+What is defect leakage.
+Questions about agile process and agile ceremonies.
+Difference between array and arraylist.
+Who sets or decides priority.
+How to perform right click opertaion in selenium
+=========================================================================================================
+Worldline Global Manual Testing Interview Questions
+---------------------------------------------------
+Explain roles and responsibilities
+Explain all phases of testing life cycle.
+How you were doing test estimation. Which technique were you using?
+Have you done sprint planning in JIRA?
+What is a deferred defect?
+What is RTM, what things are there in RTM? Can we map defect in RTM?
+What is the need of regression testing?
+If there are large number of test cases and limited resources, how will you perform regression testing
+What are the componets in test plan?
+What is risk mitigation and contingenc plan?
+What is equivalence partition technique?
+What is defect leakage?
+In which scenario we perform smoke and sanity testing?
+What are entry and exit criteria for test closure phase?
+What test cases will you write for an elevator?
+Which framework were you using for web automation?
+What is polymorphism?
+How to handle exceptions in project?
+How to handle error?
+When we use left outer join?
+If we want unique records, which query will we use?
+How we edit any file in unix?
+When we use grep command?
+=========================================================================================================
+Xoriant Automation Tester Interview Experience
+-----------------------------------------------
+Tell me about yourself.
+How will you design automation framework from scratch?
+How do you maintain test data in framework.
+Different HTTP methods you have worked on and explain them.
+Write a Java program to find occurence of words in a string array.
+Different types of access specifiers.
+What is final?
+What is ObjectMapper?
+What are default methods in Java?
+What is StringBuilder?
+Differencce between status codes 200 and 201?
+What is status code 400?
+When we will get error code 401?
+What status code we will get if token is expired and you are using that access token in your request.
+What status code we will get if resource is already present on the server and you are sending the same in POST call?
+What is JsonPath?
+Explain output of below snippet:
+class Test{
+
+public void m1(String s){
+System.out.print(“String version”);
+}
+
+public void m1(Object o){
+System.out.print(“Object version”);
+}
+
+public static void main(String[] args){
+
+Test t = new Test();
+t.m1(null);
+}
+}
+=========================================================================================================
+Coforge Automation Testing Interview Experience
+-----------------------------------------------
+Tell me about yourself?
+Explain about the current project.
+Write java program to count repeatative words in a String using hashmap.
+Write java program to find same digits from given 2 numbers. eg. 36 and 67, print 6 among these.
+Explain singleton design pattern and write code for it.
+What is serialization?
+Write code for JDBC connectivity.
+What are immutable classes in Java. Apart from String give examples?
+What are wrapper classes and use of wrapper classes?
+How will you check broken links in selenium?
+Difference between staleElement and elementNotVisible exception.
+What are features of TestNG?
+How will you generate reports in TestNG. How will you generate PDF reports?
+How many ways we can create objects in java?
+How does HashMap works?
+Difference between throw and throws?
+Difference between PUT and POST HTTP methods.
+Why restservices are called stateless.
+How will you mask header informations in RESTAssured.
+What is the use of background keyword in cucumber?
+Explain BDD framework.
+Write xpath for Alexa arrow mark on Amazon webpage.
+=========================================================================================================
+Genpact Automation Testing Interview Questions
+----------------------------------------------
+Consider you are working on multiple projects, in one project you have utilities classes and in other you have test classes. How do you use utilities from one project into other.
+How will you build your maven project?
+Write xpath for a checkbox on Amazon website.
+What kind of jenkins configuration has to be done to bring execution report from remote server or container to jenkins server?
+Write code for sending payload using RESTAssured.
+What kind of setup is required for Appium mobile automation?
+Write java program to print repeated characters in a string.
+What are wrapper classes?
+=========================================================================================================
+Mastercard(contract to hire) automation testing interview questions
+--------------------------------------------------------------------
+Different status code in API testing
+When will you get internal server error?
+Difference between PUT and POST
+What is a POJO, give an example.
+What are the requirements for a POST call?
+What is query param and path param?
+How will you fetch Zip from below Json:
+“dpaAddress”: {
+“name”: “name”,
+“line2”: “line2”,
+“line3”: “line3”,
+“city”: “city”,
+“state”: “CA”,
+“countryCode”: “IN”,
+“zip”: “123456”
+}”
+
+8.How will you store your APIs and how can you share it across your team?
+
+9. Different interfaces in collection framework.
+
+10. Major difference between list and set.
+
+11. How to initialize a list, write code.
+
+12. What will be the output of following code:
+
+public class test {
+public static void main(String[] args) {
+test t = new test();
+t.m1(); // no-args
+t.m1(10); // int-args
+t.m1(10l); // float-args
+t.m1(10f); // float-args
+t.m1(‘a’); // int-args
+// t.m1(10.5); — argument mismatch
+
+}
+public void m1() {
+System.out.println(“no-args”);
+}
+public void m1(int i) {
+System.out.println(“int-args”);
+}
+public void m1(float f) {
+System.out.println(“float-args”);
+}
+}
+
+13. If an element is getting displayed intermittently, how will write code such that no exceptions is to be thrown.
+
+14. Write xpath for a table which has a city name and radio buttons for each city.
+
+15.How to debug a code?
+
+16. How code reviews happen in your project?
+
+17. How will you resolve merge conflicts in your project?
+
+18. What is javascriptexecutor.
+
+19. What are different options to click a button.
+
+20. How to handle windows based pop up.
+
+21. How to switch between multiple windows? Why set is used.
+
+22. How to cut a cake 3 times to have 8 pieces?
+=========================================================================================================
+Tech Mahindra L1 Automation Testing Interview Questions
+-------------------------------------------------------
+Given a string named India, find occurences of each character in the given string and remove the duplicates.
+Write a Java program to push zeroes at end of an integer array.
+Write Java program to remove special characters from string.
+What is difference between Hashmap and LinkedHashMap?
+Where have you used hashmap in your project?
+Can we have duplicate keys in hashmap?
+Difference between Collection and Collections?
+Do you know lambda expression?
+What is multithreading?
+What are your day to day activities?
+What is the best suited candidate for regression suit?
+Have you ever encountered scenario where you found the bug at the last moment and because of that release is postponed.
+Can you explain your framework?
+Explain OOPs concept with respect to your framework.
+What is static keyword?
+What is final, finally and finalize?
+In which scenario finally block will not be executed?
+How to select value from dropdown?
+How do you handle git conflicts?
+What is git merge, git checkout?
+What challenges have you faced in automation and how you have resolved it.?
+=========================================================================================================
+RealPage L1 Automation Testing Interview Questions
+---------------------------------------------------
+What challenges you faced in automation?
+What version of selenium are you using?
+What is the difference between selenium 3 and selenium 4?
+Explain the line: Webdriver driver = new ChromeDriver();
+What methods are present in webdriver interface?
+Explain architecture of selenium webdriver.
+What is javascript executor? Write code for clicking an element using JS executor.
+What operations can you perform using JS executor.
+Explain different types of selenium exceptions.
+How will you handle ElementNotInteractable exception.
+What are disadvantages of selenium webdriver?
+Tell me about TestNG listeners.
+Explain how will you create framework from scratch.
+How will you read test data in your framework?
+Write a java program to find third largest element in an integer array.
+Explain List interface.
+What methods iterator interface has?
+What are static methods?
+What is inner join.
+Write SQL query to find third highest salary?
+What is map? Can keys have duplicates? What operations can we perform on map?
+=========================================================================================================
+Birlasoft L1 Automation Testing Interview Questions
+---------------------------------------------------
+Explain roles and responsibilities.
+What is the use of constructor? If parent class has constructor and child class has constructor, when you create object of child class which constructor will be called.
+What are abstract classes and interface?
+How will handle exceptions in Java? What is throw and throws keyword?
+What are typical exceptions we get in Java.
+When we will get null pointer exception?
+What is a string? Why they are called immutable?
+Write java program to print occurence of character in a string without using hashmap.
+Different types of wait commands. Difference between explicitly wait and fluent wait.
+What is implictily wait?
+How do you take screenshot in selenium.
+Different types of authentication in API.
+How will you handle query parameter?
+Explain different HTTP methods.
+=========================================================================================================
+Wolters Kluwers L1 Automation QA Interview Questions
+-----------------------------------------------------
+Difference between driver.get() and driver.navigate()?
+Different type of exceptions you have faced?
+When does staleelementreference exception occur?
+Which selenium version you use?
+What is WebDriver driver = new ChromeDriver(). What type of polymorphism is this?
+What are wrapper classes?
+In which scenarios we will use wrapper class?
+What is the use of static keyword?
+How will you check failed testcases in testNG?
+What are 3 important files in cucumber?
+How will you handle flaky test cases?
+Write xpath for button with text as abc. What if I want to do partial match of the text?
+How will you configure testng.xml file to run testcases in parallel?
+What will be the priority in testng for 0,1,2,-1?
+What are soft and hard assert?
+Write a java program to print star pattern.
+Write a java program to print numbers from 1 to 10 using recursion.
+Write a sql query to find the second highest salary from employee table.
+Write code for fetching data from 3 x 3 web table.
+Write a code for sending post request.
+=========================================================================================================
+Genpact Automation Interview Questions
+----------------------------------------
+What are static and final variable?
+What will be the order of execution: static varibale, static block and main method?
+Write a java program to print occurence of each character in a string.
+Write xpath for delete button in view cart page in amazon.
+What kind of exceptions have you faced in selenium?
+How will you resolve staleElement reference exception?
+Write SQL query to find nth highest salary from employee table.
+What is the purpose of dataprovider in testng, write signature for that method.
+What is dryrun and strict in cucumber?
+What kind of testcases will you write for POST request in API?
+Write code for post request, get the response data and pass it in get call.
+How will you validate JSON schema?
+=========================================================================================================
+RealPage Automation Tester L2 Interview Questions
+--------------------------------------------------
+Explain framework in detail.
+Write cucumber runnner file and testng.xml file structure.
+Out of 500 testcases if you want to run only 100 testcases how will you do that?
+What are the different cucumber options you have used in project?
+Write feature file for login functionality.
+What is the difference between scenario and scenario outline?
+How to pass browser details in the test scripts?
+Difference between BDD and TDD projects.
+What reusable methods have you created in your project?
+What is the difference between implicit and explicit wait?
+Write reusable method for wait for element to be displayed.
+Different locator strategies.
+Write code for switching to a window, do some validation and come back.
+What is the benefit of using interface. Difference between abstract class and constructor
+Write java program to find duplicate characters in a string.
+How will you generate 4 digit random number?
+What is singleton class in Java, write code for the same.
+How do you handle exceptions in Java.
+Different type of exceptions you have faced.
+Difference between API and webservices.
+What is normalization in DB
+What is primary key and foreign key?
+------------------------------------------------end---------------------------------------------------------------------
+
