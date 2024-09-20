@@ -2,7 +2,7 @@ package selenium_java_interview_questions;
 
 public class DuplicateCharacters {
     public static void main(String args[]){
-        String name = "saameer";
+        String name = "sameer";
         int n = name.length();
         for(int i=0;i<n;i++){
             int count = 0;
