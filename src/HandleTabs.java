@@ -32,6 +32,10 @@ public class HandleTabs {
         Set<String> windowHandles = driver.getWindowHandles();
         ArrayList tabs = new ArrayList(windowHandles);
         driver.switchTo().window((String) tabs.get(1));
+        System.out.println("im in 2 tab");
+        driver.switchTo().window((String)tabs.get(0));
+        driver.findElement(By.xpath("//textarea")).click();
+        System.out.println("im in 1 tab");
 
     }
 }
