@@ -10,9 +10,11 @@ public class ConstructorOverLoad {
     }
     public void nonStaticMethod(){
          int age = 10;
+        System.out.println(age);
     }
     public static void main(String args[]){
         ConstructorOverLoad defaultConstructor = new ConstructorOverLoad();
         ConstructorOverLoad col = new ConstructorOverLoad("Sameer");
+        col.nonStaticMethod();
     }
 }
