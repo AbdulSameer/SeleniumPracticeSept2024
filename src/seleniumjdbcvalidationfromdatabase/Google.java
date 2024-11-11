@@ -1,49 +1,65 @@
 package seleniumjdbcvalidationfromdatabase;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.apache.commons.io.FileUtils;
+import org.testng.Assert;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
 
+import java.io.File;
+import java.io.IOException;
 import java.sql.*;
 import java.util.concurrent.TimeUnit;
 
+@Listeners(FailScreenShot.class)
 public class Google {
-    public static void main(String args[]) throws SQLException {
+    public static WebDriver driver = new ChromeDriver();
+
+    // Method to take a screenshot
+    public void takeScreenshot(String testName) throws IOException {
+        File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(srcFile, new File("C:\\Users\\Sameer\\Downloads\\src\\failScreenShots\\" + testName + ".png"));
+    }
+
+    @Test
+    public void testGoogleSearch() throws SQLException {
         String text = "";
         String url = "jdbc:postgresql://localhost:5432/test";
         String userName = "postgres";
         String password = "admin";
 
-        //Initializing the connection
-        Connection conn = null;
-        Statement stmt = null;
-        ResultSet rs = null;
+        // Establishing the connection
+        Connection conn = DriverManager.getConnection(url, userName, password);
+        System.out.println("Connected to the database successfully");
 
-        //establishing the connection
-        conn = DriverManager.getConnection(url,userName,password);
-        System.out.println("connected to the database successfully");
+        // Create a statement
+        Statement stmt = conn.createStatement();
 
-        //create a statement
-        stmt = conn.createStatement();
+        // Define SQL query
+        String query = "SELECT name FROM users";
 
-        //defining sql query
-        String query = "select name from users";
+        // Execute the query
+        ResultSet rs = stmt.executeQuery(query);
 
-        //execute the query
-        rs = stmt.executeQuery(query);
-
-        //process the result
-        while(rs.next()){
-            //fetch colums from the result
+        // Process the result
+        while (rs.next()) {
             text = rs.getString("name");
         }
 
-        //database operations
-
-        WebDriver driver = new ChromeDriver();
+        // Database and Selenium operations
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.get("https://google.com");
+        driver.get("https://facebook.com");
+
+        // Asserting the title to trigger failure
+        String title = driver.getTitle();
+        Assert.assertEquals(title, "facebook");  // this may fail if the title isn't "facebook"
+
+        // Using the retrieved text in the search box
         driver.findElement(By.xpath("//textarea[@title='Search']")).sendKeys(text);
     }
 }
