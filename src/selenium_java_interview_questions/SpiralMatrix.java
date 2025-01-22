@@ -5,11 +5,12 @@ import java.util.Arrays;
 public class SpiralMatrix {
     public static void main(String args[]){
         int matrix[][] = {{1,2,3},{8,9,4},{7,6,5}};
-        int rows = matrix.length;
-        int cols = matrix[0].length;
+        int rows = matrix.length; //no of rows
+        int cols = matrix[0].length; //no of cols
         int top = 0, left = 0, right = cols-1, bottom = rows-1;
         int index = 0;
         int result[] = new int[rows*cols];
+        
         while(left<=right&&top<=bottom){
             for(int i=left;i<=right;i++){
                 result[index++] = matrix[top][i];
